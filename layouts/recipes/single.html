@@ -124,6 +124,9 @@
     {{ with .Params.Category }}{{ partial "taxonomy/category" . }}{{ end }}
     {{ with .Params.Cuisine }}{{ partial "taxonomy/cuisine" . }}{{ end }}
     {{ with .Params.Tags }}{{ partial "taxonomy/tags" . }}{{ end }}
+    <div class="source">
+      {{ i18n "source" }}: <a href="{{ $.Param "SourceURL" }}"><span itemprop="recipeCategory">{{ $.Param "SourceName" }}</span></a>
+    </div>
 
   </article>
 </div>
