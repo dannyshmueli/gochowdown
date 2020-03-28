@@ -121,6 +121,19 @@
     <!-- end components -->  
     <br />
 
+    <!-- More Images -->
+     <div class="clearfix">
+      {{ with .Params.MorePhotos }}
+      <h4>{{ i18n "more-photos" }}:</h4>
+        {{ range . }}
+          <div class="xs-m05">
+            <img itemprop="image" src="{{ . }}" />
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <!-- end More Images -->
+
     {{ with .Params.Category }}{{ partial "taxonomy/category" . }}{{ end }}
     {{ with .Params.Cuisine }}{{ partial "taxonomy/cuisine" . }}{{ end }}
     {{ with .Params.Tags }}{{ partial "taxonomy/tags" . }}{{ end }}
