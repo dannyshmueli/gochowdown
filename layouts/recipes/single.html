@@ -44,7 +44,7 @@
         {{ end }}
 
         {{ with .Params.Ingredients }}
-        <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
+        <h4 class="blue mt0 mb2 xs-center">{{ i18n "ingredients" }}</h4>
         <ul itemprop="ingredients">
           <!-- list ingredients that make up recipe -->
           {{ range . }}
@@ -57,7 +57,7 @@
       </div>
 
       <div class="sm-col sm-col-6 lg-col-6 recipeItems">
-        <h4 class="blue mt0 mb2 xs-center">Directions</h4>
+        <h4 class="blue mt0 mb2 xs-center">{{ i18n "directions" }}</h4>
         <ul itemprop="recipeInstructions">
           {{ range .Params.Directions }}
           <li>

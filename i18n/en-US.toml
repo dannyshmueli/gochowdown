@@ -1,0 +1,17 @@
+[ingredients]
+one = "Ingredient"
+other = "Ingredients"
+
+[directions]
+other = "Directions"
+
+[source]
+other = "Source"
+
+
+[category]
+other = "Category"
+
+[tags]
+other = "Tags"
+
