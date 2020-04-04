@@ -13,5 +13,12 @@ other = "עוד תמונות"
 [category]
 other = "קטגוריה"
 
+[steps]
+one = "שלב"
+other = "שלבים"
+
 [tags]
 other = "תגיות"
+
+[components]
+other = "מרכיבים"

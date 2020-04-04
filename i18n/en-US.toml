@@ -8,6 +8,13 @@ other = "Directions"
 [source]
 other = "Source"
 
+[more-photos]
+other = "More Photos"
+
+[steps]
+one = "step"
+other = "Steps"
+
 
 [category]
 other = "Category"
